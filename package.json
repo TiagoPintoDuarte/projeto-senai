@@ -1,0 +1,17 @@
+{
+  "name": "TesteBMG",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Tiago Pinto Duarte",
+  "license": "MIT",
+  "devDependencies": {
+    "cpf-cnpj-validator": "^1.0.3",
+    "cypress": "^13.17.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
