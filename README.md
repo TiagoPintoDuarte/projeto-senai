@@ -24,7 +24,7 @@ Para instalar e configurar o projeto, siga os passos abaixo:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/DiegoDeSousaPereira/testStoom
+   git clone https://github.com/TiagoPintoDuarte/projeto-senai.git
    ```
 
 2. **Instale as dependências**:
@@ -93,7 +93,3 @@ Este projeto utiliza **GitHub Actions** para automação da pipeline de testes. 
   - Execução dos testes Cypress em modo headless com `npx cypress run`.
 - **Artifacts**: Após a execução, os relatórios de testes, vídeos e screenshots são salvos e mantidos por 1 semana.
 - **Notificação de Erro**: Caso o job falhe, uma notificação é enviada ao Slack com detalhes do commit e link para o job, usando a URL configurada para o webhook.
----
-
-### Agradecimentos 🙏
-Obrigado por conferir este projeto! Estou sempre em busca de melhorar e aplicar boas práticas em automação de testes. Além disso, possuo certificações CTFL(Certified Tester Foundation Level) e CT-TAE(Certified Tester - Test Automation Engineer), que validam meu compromisso com a qualidade e a eficácia em testes de software.
